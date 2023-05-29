@@ -37,8 +37,10 @@ button {
   color: black;
   padding: 10px 20px;
   opacity: 0.8;
-  display:grid;
-  place-items:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
 }
 
 button:active{
